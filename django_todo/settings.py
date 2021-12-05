@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2n=lj1bnaekk25+$6^u+slh#a4stc9zu==i=ugi)_6t4((ip#1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hello-django-fsf.herokuapp.com']
 
 
 # Application definition
