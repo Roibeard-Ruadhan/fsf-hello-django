@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2n=lj1bnaekk25+$6^u+slh#a4stc9zu==i=ugi)_6t4((ip#1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['hello-django-fsf.herokuapp.com']
+ALLOWED_HOSTS = ['hello-django-fsf.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse('postgres://oajqdpxrmofdux:0cc29e1b7eadbf0095784fbc21904bbcf58a4720f08a98e6b9653870d5fc4b39@ec2-54-156-24-159.compute-1.amazonaws.com:5432/d1d2pjrkd0vmq4')
+    'default': dj_database_url.parse('DATABASE_URL')
 }
 
 
